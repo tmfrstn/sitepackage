@@ -5,7 +5,12 @@ if (!defined('TYPO3_MODE')) {
 // PUT TEMPLATE MANUAL TO ROOT TEMPLATE
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
 	$_EXTKEY, 'Configuration/TypoScript/Static/',
-	'Site Package tophair.de'
+	'Site Package BASE'
+);
+// PUT TEMPLATE MANUAL TO ROOT TEMPLATE
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+	$_EXTKEY, 'Configuration/TypoScript/Site/Site1',
+	'Site Package Site1'
 );
 
 // THINK BEFORE UNCOMMENTING THE FOLLOWING LINES - THEY WILL INFLUENCE

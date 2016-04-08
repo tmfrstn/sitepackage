@@ -6,7 +6,7 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fsc_slider_slick/Configuration/TypoScript/setup.txt">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fsc_typoscript/Configuration/TypoScript/setup.txt">
 ###<INCLUDE_TYPOSCRIPT: source="FILE:EXT:formhandler/Configuration/TypoScript/DefaultConfiguration/setup.txt">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:rhp_trend_gallery/Configuration/TypoScript/setup.txt">
+
 ### Gridelements
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:sitepackage/Configuration/TypoScript/GridElements" extensions="ts">
 ### Ext own Modifications
@@ -14,7 +14,7 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/ContentElements/setup.ts">
 
 ### Site Configuration Typoscript
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:sitepackage/Configuration/TypoScript/Site" extensions="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:sitepackage/Configuration/TypoScript/Site/Base" extensions="ts">
 
 ## Application Context
 # Einstellungen für Entwicklunssystem
