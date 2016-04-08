@@ -1,0 +1,20 @@
+<html xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers">
+<f:layout name="Default" />
+
+<f:section name="content">
+	<div class="bgSlider">
+		<!-- <img src="/typo3conf/ext/sitepackage/Resources/Public/Images/slideTrend.jpg"/> -->
+		<f:cObject typoscriptObjectPath="lib.background" />
+	</div>
+	<div id="section-1" class="viewContainer section">
+		<div class="thiBadge">
+			<f:cObject typoscriptObjectPath="lib.badge" />
+		</div>
+		<div class="headline">
+			<f:cObject typoscriptObjectPath="lib.headline" />
+		</div>
+	</div>
+	<div class="content section">
+		<f:cObject typoscriptObjectPath="lib.content" />
+	</div>
+</f:section>

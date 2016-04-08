@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-01-06T12:15:47Z" product-name="sitepackage">
+		<header/>
+		<body>
+			<trans-unit id="pages.logout_label" xml:space="preserve">
+				<source>Navigationstitel Logout</source>
+			</trans-unit>
+			<trans-unit id="pages.css_menu_class" xml:space="preserve">
+				<source>Classes für Navigation</source>
+			</trans-unit>
+
+			<trans-unit id="tx_news_domain_model_news.kicker" xml:space="preserve">
+				<source>Dachzeile</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

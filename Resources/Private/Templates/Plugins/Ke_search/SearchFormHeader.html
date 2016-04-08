@@ -1,0 +1,34 @@
+<f:layout name="General" />
+<!--
+=====================
+Templates/SearchForm.html
+-->
+<f:section name="content">
+	<form method="get" class="form-search static" role="search" id="xajax_form_kesearch_pi1" name="xajax_form_kesearch_pi1"  action="{f:uri.page(pageUid: targetpage)}">
+		<div class="input-group">
+			<input type="text" id="ke_search_sword-mobile" name="tx_kesearch_pi1[sword]" value="{searchword}" placeholder="{searchwordDefault}" onfocus="if (this.value == '{searchwordDefault}') { this.value = ''; }" onblur="if (this.value == '') { this.value = '{searchwordDefault}'; }" class="form-control"/>
+			<span class="input-group-btn">
+			<button type="submit" class="btn btn-search submit"  alt="{f:translate(key: 'LLL:EXT:ke_search/pi1/locallang.xml:submit')}" onclick="document.getElementById('pagenumber').value=1; document.getElementById('xajax_form_kesearch_pi1').submit();">
+				<i class="fa icon-search"></i>
+			</button>
+		</span>
+		</div>
+		<f:if condition="{targetpage}">
+			<input type="hidden" name="id" value="{targetpage}" />
+		</f:if>
+		<f:if condition="{lparam}">
+			<input type="hidden" name="L" value="{lparam}" />
+		</f:if>
+		<f:if condition="{mpparam}">
+			<input type="hidden" name="MP" value="{mpparam}" />
+		</f:if>
+		<f:if condition="{typeparam}">
+			<input type="hidden" name="type" value="{typeparam}" />
+		</f:if>
+
+		<input id="pagenumber" type="hidden" name="tx_kesearch_pi1[page]" value="{page}" />
+		<input id="resetFilters" type="hidden" name="tx_kesearch_pi1[resetFilters]" value="0" />
+		<input id="sortByField" type="hidden" name="tx_kesearch_pi1[sortByField]" value="{sortByField}" />
+		<input id="sortByDir" type="hidden" name="tx_kesearch_pi1[sortByDir]" value="{sortByDir}" />
+	</form>
+</f:section>

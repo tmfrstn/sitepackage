@@ -1,0 +1,22 @@
+<header id="header">
+	<div class="thiLogo">
+		<a href="/" target="_self">
+			<img src="/typo3conf/ext/sitepackage/Resources/Public/Images/logo.png"/>
+		</a>
+	</div>
+	<div class="thiCombi">
+		<div class="thiMeta">
+			<f:cObject typoscriptObjectPath="lib.naviMeta" />
+		</div>
+		<div class="thiSearch">
+			<f:cObject typoscriptObjectPath="lib.searchbox" />
+		</div>
+	</div>
+	<div class="thiMenu">
+		<nav id="nav" role="navigation">
+			<a href="#nav" title="Show" class="icon-menu"></a>
+			<a href="#" title="Hide" class="icon-menu"></a>
+			<f:cObject typoscriptObjectPath="lib.naviMain" />
+		</nav>
+	</div>
+</header>

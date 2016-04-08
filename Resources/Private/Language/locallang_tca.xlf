@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-03-12T12:53:35Z" product-name="sitepackage">
+		<header/>
+		<body>
+
+			<trans-unit id="pagesLayoutAltLabels100">
+				<source>Gridelement mit Hintergrund</source>
+			</trans-unit>
+
+			<trans-unit id="tt_contentHeaderLayoutAltLabels0">
+				<target>Keine Überschrift</target>
+			</trans-unit>
+			<trans-unit id="tt_contentHeaderLayoutAltLabels1">
+				<target>Überschrift h1</target>
+			</trans-unit>
+			<trans-unit id="tt_contentHeaderLayoutAltLabels2">
+				<target>Überschrift h2</target>
+			</trans-unit>
+			<trans-unit id="tt_contentHeaderLayoutAltLabels3">
+				<target>Überschrift h3</target>
+			</trans-unit>
+			<trans-unit id="tt_contentHeaderLayoutAltLabels4">
+				<target>Zwischenüberschrift</target>
+			</trans-unit>
+			<trans-unit id="tt_contentHeaderLayoutAltLabels5">
+				<target>Überschrift h5</target>
+			</trans-unit>
+			<trans-unit id="tt_contentHeaderLayoutAltLabels6">
+				<target>Überschrift h6</target>
+			</trans-unit>
+
+			<trans-unit id="hidden-xs">
+				<target>Ausblenden Very Small</target>
+			</trans-unit>
+			<trans-unit id="hidden-sm">
+				<target>Ausblenden Small</target>
+			</trans-unit>
+			<trans-unit id="hidden-md">
+				<target>Ausblenden Medium Desktop</target>
+			</trans-unit>
+			<trans-unit id="hidden-lg">
+				<target>Ausblenden Large</target>
+			</trans-unit>
+
+
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for backend layouts</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+
+            <label index="Col1">1 Spalter - Default</label>
+            <label index="Startseite">Startseite</label>
+            <label index="Slider">1 Spalter - Slider</label>
+            <label index="T3Standard">4 Spalten - Default Typo3</label>
+
+
+            <label index="columnName.content">Inhalt</label>
+            <label index="columnName.left">Linke Spalte</label>
+            <label index="columnName.right">Rechte Spalte</label>
+            <label index="columnName.border">Rand</label>
+
+            <label index="columnName.badge">Badge</label>
+            <label index="columnName.headline">Headline</label>
+            <label index="columnName.backgroundImage">Hintergrundbild</label>
+
+            <label index="columnName.slider">Header Slider</label>
+
+        </languageKey>
+
+    </data>
+</T3locallang>

@@ -1,0 +1,28 @@
+// Import bootstrap Variables in this Dir
+@import "bootstrapVariables.scss";
+// Import bootstrap and fontawesome and magnificPopup from Bower Dir
+@import "bootstrap";
+@import "font-awesome";
+@import "main"; /* magnificPopup */
+
+/*### mixins begin ###*/
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+@mixin rotate($deg){
+	-webkit-transform: rotate($deg);
+	-moz-transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	transform: rotate($deg);
+}
+/*### mixins end ###*/
+
+/*### variables begin ###*/
+
+$viewport: calc(100vh - 70px);
+
+/*### variables end ###*/
+
